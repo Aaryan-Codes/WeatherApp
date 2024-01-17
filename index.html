@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+
+        <div class="search-bar">
+            <i class="fa-solid fa-earth-asia"></i>
+            <input type="text" placeholder="Enter The Location">
+            <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div class="condition-icon">
+            <img src="Images/sun-cloud.png">
+        </div>
+
+        <div class="condition"> Condition</div>
+        <div class="temperature"> <span>--</span>&#176;C</div>
+        <div class="weather-info">
+            <div class="wind" style="display: flex; gap:6px;">
+                <i class="fa-solid fa-wind"></i>
+                <p style="font-size: 14px;"><span>--</span>KPH</p>
+            </div>
+            <div class="precip" style="display: flex; gap:6px;">
+                <i class="fa-solid fa-water"></i>
+                <p style="font-size: 14px;"><span>--</span>%</p>
+            </div>
+        </div>
+        <div class="location">
+            <div class="place">Location</div>      
+        </div>
+
+        <div class="astronomy">
+            <div class="sunrise">
+                <p>Sunrise</p>
+                <img src="Images/sunrise.png" alt="">
+                <p class="time">--</p>
+            </div>
+            <div class="range">
+
+                <div class="min">
+                    <i class="fa-solid fa-temperature-arrow-down"></i>
+                    <span>--</span>&#176;C
+                </div>
+
+                <div class="max">
+                    <i class="fa-solid fa-temperature-arrow-up"></i>
+                    <span>--</span>&#176;C
+                </div>
+                
+            </div>
+            <div class="sunset">
+                <p>Sunset</p>
+                <img src="Images/sunset.png" alt="">
+                <p class="time">--</p>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/3be92f9db2.js" crossorigin="anonymous"></script>
+</body>
+</html>

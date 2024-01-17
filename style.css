@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    
+}
+
+.background{
+    display: flex;
+    height: 100vh;
+    width:100vw;
+    justify-content: center;
+    align-items: center;
+    background-image: url('Images/186464.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    background: linear-gradient(to bottom,rgb(31, 31, 31),#808080);
+    padding:40px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+}
+
+.search-bar{
+    padding:10px 12px 10px 12px;
+    border-radius: 30px;
+    width:100%;
+    display: flex;
+    justify-content:space-around;
+    background-color: #6d6d6d;
+}
+
+.search-bar i{
+    color:white;
+    position: relative;
+    top:3px;
+}
+
+.search-bar input{
+    outline:none;
+    border:none;
+    color:white;
+    margin-left:4px;
+    background-color: #6d6d6d;
+    width:100%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.search-bar input::placeholder{
+    font-size: 18px;
+    color:white;
+    text-align: center;
+}
+
+.search-button{
+    border:none;
+    background-color: transparent;
+    position: relative;
+    bottom:3px;
+    color:white;
+    padding:3px;
+    cursor: pointer;
+}
+
+.location{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap:10px;
+}
+
+.place{
+    font-size: 30px;
+    color:white;
+}
+
+.condition{
+    color:white;
+}
+
+.condition-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100px;
+    width:100px;
+}
+
+.temperature{
+    color:white;
+    font-size: 40px;
+}
+
+.weather-info{
+    display: flex;
+    justify-content: space-evenly;
+    gap:15px;
+    color:white;
+}
+
+.sunrise img,.sunset img{
+    width:40px;
+    height: 40px;
+}
+
+.astronomy{
+    display:flex;
+    gap:8px;
+}
+
+.sunrise,.sunset,.range{
+    display: flex;
+    padding:5px;
+    height: 90px;
+    width:87px;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to top,#a3a3a3,rgb(255, 255, 255));
+    border-radius: 4px;
+}
+
+.range{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:90px;
+}
